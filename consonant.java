@@ -1,4 +1,4 @@
-class Consonant
+class Conso
 {
    public static void main(String[] args)
      {
@@ -6,7 +6,7 @@ class Consonant
        if(letter>'a'&&letter<='z'&&letter!='e'&&letter!='i'&&letter!='o'&&letter!='u')
           System.out.println("consonant");
        else
-          System.out.println("vowel");
+          System.out.println('e');
 
       }
 }
