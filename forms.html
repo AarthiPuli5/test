@@ -1,0 +1,67 @@
+<!--attributes: for, type, name,value,action,size,id,class,required-->
+
+<html> 
+<head>
+<title>forms</title>
+</head>
+<body>
+<table border=1 bgcolor=orange bordercolor=pink cellpadding=20px>
+
+    <form>            
+	<tr>
+	    <td><lable for=fname>firstname:</lable></td>
+		<td><input type=text name=fname placeholder=aarthi id=1 class=abc required></td>   <!--textbox-->
+	</tr>
+	<tr>
+		<td><lable for=lname>lastname:</lable></td>
+		<td><input type=text name=lname value=puli></td>
+	</tr>
+	    
+	<tr>
+		<td rowspan=2>choose your gender:</td>		<!--radio button-->
+		<td>
+		  <input type=radio name=gender>
+		  <lable for=gender>male</lable>
+		</td>
+	</tr>
+	<tr>
+		<td>
+		  <input type=radio name=gender>
+		  <lable for=gender>female</lable>
+		</td>
+	</tr>
+	<tr>
+		
+		<td rowspan=3>choose your skills: 
+		</td		                               <!--checkbox-->
+	
+		<td>
+		  <input type=checkbox name=skills>
+		  <lable for=skills>core java</lable>
+		</td>
+	</tr>
+	<tr>
+		<td>
+		  <input type=checkbox name=skills>
+		  <lable for=skills>javascript</lable>
+		</td>
+	</tr>
+	<tr>
+		<td>
+		  <input type=checkbox name=skills>
+		  <lable for=skills>git</lable>
+		</td>
+	</tr>
+
+    <th colspan=2>
+        <input type=submit value=register> 		<!--submit button-->
+	</th>
+
+    </form>
+</table>
+</body>
+</html>	
+		
+		
+
+		
